@@ -1,0 +1,20 @@
+{
+    "name": "viniciusrcam/access-api-btc",
+    "description": "Projeto que busca o valor do Bitcoin no site Mercado Bitcoin",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Viniciusrcam\\AccessApiBtc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius Rodrigues",
+            "email": "viniciusr.camargo@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
